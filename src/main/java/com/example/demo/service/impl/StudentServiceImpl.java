@@ -15,8 +15,8 @@ public class StudentServiceImpl implements StudentService {
     private StudentRepo stRepo;
 
     @Override
-    public Student insertStudent(Student student) {
-        return stRepo.save(student);
+    public Student insertStudent(Student st) {
+        return stRepo.save(st);
     }
 
     @Override
